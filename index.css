@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+#score {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
+#score::before {
+  content: 'Score : ';
+}
+#highscore::before {
+  content: 'High Score : ';
+}
+#highscore {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
