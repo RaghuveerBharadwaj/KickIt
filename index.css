@@ -27,3 +27,26 @@ body {
   font-weight: 500;
   color: white;
 }
+
+#kick-it {
+  position: absolute;
+  top: 8em;
+  left: 5vw;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  width: 90vw;
+}
+
+@media screen and (max-width: 600px) {
+  #score {
+    font-size: 24px;
+  }
+  #highscore {
+    font-size: 24px;
+  }
+  #kick-it {
+    font-size: 24px;
+  }
+}
